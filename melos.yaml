@@ -13,5 +13,7 @@ scripts:
   dart:fix:
     exec: dart fix --apply
   
+  run:
+    exec: flutter run --flavor development --target lib/main_development.dart
   analyze:
     exec: dart analyze .

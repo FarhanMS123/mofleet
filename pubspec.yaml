@@ -5,8 +5,3 @@ environment:
 
 dev_dependencies:
   melos: ^6.3.2
-
-dependencies:
-  provider: ^6.1.2
-  flutter:
-    sdk: flutter

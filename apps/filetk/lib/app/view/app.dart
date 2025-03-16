@@ -1,6 +1,8 @@
 import 'package:filetk/counter/counter.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+// ignore: implementation_imports
+import 'package:shared/src/app_state.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -19,8 +21,4 @@ class App extends StatelessWidget {
       ),
     );
   }
-}
-
-class GlobalAppState extends ChangeNotifier {
-  //
 }
