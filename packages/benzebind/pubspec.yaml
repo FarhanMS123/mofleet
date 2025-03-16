@@ -1,0 +1,12 @@
+name: benzebind
+description: Benzena Aromatic Binding in HidroCarbon defining strong bond between similar homogeneous applications and functionalities to achieve common goals, a super interconnect hive apps
+version: 0.1.0+1
+
+
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
