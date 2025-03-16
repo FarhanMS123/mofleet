@@ -5,5 +5,13 @@ packages:
   - packages/**
 
 scripts:
+  # melos bootstrap
+  setup:
+    exec: melos pub:get && melos dart:fix
+  pub:get:
+    exec: flutter pub get
+  dart:fix:
+    exec: dart fix --apply
+  
   analyze:
     exec: dart analyze .

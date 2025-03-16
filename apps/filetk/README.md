@@ -25,6 +25,13 @@ MoFleet File Toolkit to handle synchronous fragiles and management files
 
 ## Getting Started 🚀
 
+For starter:
+
+```sh
+flutter pub get
+dart fix --apply
+```
+
 This project contains 3 flavors:
 
 - development
