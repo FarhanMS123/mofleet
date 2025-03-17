@@ -1,5 +1,5 @@
 import 'package:bloc_test/bloc_test.dart';
-import 'package:filetk/counter/counter.dart';
+import 'package:filetk/view/counter.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
