@@ -1,4 +1,4 @@
-import 'package:filetk/view/counter.dart';
+import 'package:filetk/view/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 // ignore: implementation_imports
@@ -17,7 +17,8 @@ class App extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
         ),
-        home: const CounterPage(),
+        themeMode: ThemeMode.light,
+        home: const Home(),
       ),
     );
   }
